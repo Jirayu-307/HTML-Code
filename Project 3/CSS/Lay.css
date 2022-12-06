@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;        
+}
+
+.main{
+    background-color: lavender;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    background-color: palegoldenrod;
+    padding: 10px;
+}
+
+.nav{
+    background-color: aqua;
+    margin: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header{
+
+    background-color: fuchsia;
+    margin: 5px;
+    height: 50px;
+    
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+.sidebar{
+    background-color: tomato;
+    height: 200px;
+    margin-right: 15px;
+    
+    text-align: center;
+    margin: 5px;
+
+    display: block;
+    flex: 1;
+}
+
+.body{
+    background-color: hotpink ;
+    
+    text-align: center;
+    margin: 5px;
+
+    display: block;
+    flex: 2;
+}
+
+.footer{
+    background-color: lime;
+    margin: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
