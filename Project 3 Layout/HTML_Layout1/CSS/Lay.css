@@ -21,7 +21,6 @@ body{
 }
 
 .header{
-
     background-color: fuchsia;
     margin: 5px;
     height: 50px;
@@ -33,14 +32,16 @@ body{
 
 .sidebar{
     background-color: tomato;
-    height: 200px;
+    height: 300px;
     margin-right: 15px;
     
     text-align: center;
     margin: 5px;
 
-    display: block;
+    display: flex;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .body{
@@ -49,8 +50,10 @@ body{
     text-align: center;
     margin: 5px;
 
-    display: block;
+    display: flex;
     flex: 2;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer{

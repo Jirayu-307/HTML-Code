@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;        
+}
+
+.main{
+    background-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    background-color: lightgreen;
+    height: 25px;
+    margin-right: 15px;
+    
+    text-align: center;
+    margin: 5px;
+
+    display: block;
+    flex: 1;
+}
+
+.nav{
+    background-color: lightseagreen ;
+    
+    text-align: center;
+    margin: 5px;
+
+    display: block;
+    flex: 2;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-items-1, .flex-items-2, .flex-items-3, .flex-items-4,
+.flex-items-5, .flex-items-6, .flex-items-7, .flex-items-8,
+.flex-items-9, .flex-items-10, .flex-items-11, .flex-items-12,
+.flex-items-13, .flex-items-14, .flex-items-15, .flex-items-16{
+    width: 120px;
+    height: 70px;
+    background: skyblue;
+    margin: 10px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxs-1,.boxs-2, .boxs-3{
+    height: 100px;
+    width: 29%;
+    background: lightsalmon;
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: springgreen;
+    margin: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
